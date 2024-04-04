@@ -1,6 +1,6 @@
 FROM python:3.11
 
-WORKDIR /codes_con
+WORKDIR /cont_workspace
 
 #sudo chown -R $(whoami) /home/chandu/project_prisma_dr/codes_wsl/
 
