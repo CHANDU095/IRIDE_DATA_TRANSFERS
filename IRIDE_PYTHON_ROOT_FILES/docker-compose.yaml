@@ -6,7 +6,7 @@ services:
       - "8888:8888"
       - "6006:6006"
     volumes:
-      - ./codes_wsl:/codes_con
+      - ./local_workspace:/cont_workspace
     environment:
       - DISPLAY=host.docker.internal:0.0  # X forwarding to Windows host
     deploy:
